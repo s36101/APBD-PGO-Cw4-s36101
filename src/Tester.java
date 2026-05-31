@@ -18,7 +18,7 @@ public class Tester extends Pracownik {
 
     @Override
     public double obliczKosztMiesieczny() {
-        double dodatek + czyAutomatyzujacy ? 2000.0 : 0.0;
+        double dodatek = czyAutomatyzujacy ? 2000.0 : 0.0;
         return getStawkaBazowa() + dodatek;
     }
 
