@@ -14,7 +14,7 @@ public class Programista extends Pracownik {
 
     @Override
     public double obliczKosztMiesieczny() {
-        return getStawkaBazowa() * (liczbaRepozytoriow * 100);
+        return getStawkaBazowa() + (liczbaRepozytoriow * 100);
     }
 
     @Override

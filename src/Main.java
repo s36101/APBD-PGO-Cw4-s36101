@@ -17,6 +17,7 @@ public class Main {
         System.out.println("PRZEDSTAWIENIE PRACOWNIKÓW");
         System.out.println(p1.przedstawSie());
         System.out.println(p2.przedstawSie());
+        System.out.println(p3.przedstawSie());
 
         System.out.println("AKCJE SPECYFICZNE");
         if (p1 instanceof Programista) {
